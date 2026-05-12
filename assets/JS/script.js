@@ -122,11 +122,7 @@ for (let i = 0; i < valoriDiversi.length; i++) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 const numeri = [];
-numeri.push(1);
-numeri.push(2);
-numeri.push(3);
-numeri.push(4);
-numeri.push(5);
+numeri.push(1, 2, 3, 4, 5);
 numeri.unshift(0);
 console.log(numeri);
 console.log(`Length: ${numeri.length}`);
