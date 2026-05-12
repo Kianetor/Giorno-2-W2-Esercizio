@@ -90,7 +90,7 @@ if (a > b && a > c) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 const totale = 35;
 
-let spedizione;
+let spedizione; //valorizzo più volte
 if (totale >= 50) {
   spedizione = 0;
 } else {
@@ -108,9 +108,9 @@ console.log(`Totale carrello: ${totale}€ — Spedizione: ${spedizione}€ — 
 const valoriDiversi = [42, "ciao", true];
 for (let i = 0; i < valoriDiversi.length; i++) {
   if (typeof valoriDiversi[i] === "number") {
-    console.log(valoriDiversi[i] + " è un numero");
+    console.log(`${valoriDiversi[i]} è un numero`);
   } else {
-    console.log(valoriDiversi[i] + " non è un numero");
+    console.log(`${valoriDiversi[i]} non è un numero`);
   }
 }
 
